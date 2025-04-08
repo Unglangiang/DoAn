@@ -1,0 +1,47 @@
+/* Định dạng chung cho danh sách các sản phẩm trong giỏ hàng */
+.cart-items {
+  list-style-type: none; /* Loại bỏ các dấu chấm (bullet points) trong danh sách */
+  padding: 0; /* Xóa bỏ khoảng cách padding mặc định của list */
+}
+
+/* Định dạng cho mỗi sản phẩm trong giỏ hàng */
+.cart-item {
+  display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử trong mỗi sản phẩm */
+  justify-content: space-between; /* Căn chỉnh nội dung các phần tử trong sản phẩm, khoảng cách đều giữa các phần tử */
+  border-bottom: 1px solid #ddd; /* Đặt đường kẻ dưới sản phẩm với màu xám nhẹ */
+  padding: 10px; /* Thêm khoảng cách padding xung quanh nội dung của mỗi sản phẩm */
+  margin-bottom: 10px; /* Thêm khoảng cách giữa các sản phẩm */
+}
+
+/* Định dạng cho hình ảnh của sản phẩm trong giỏ hàng */
+.cart-item-image {
+  width: 80px; /* Đặt chiều rộng của hình ảnh là 80px */
+  height: auto; /* Đảm bảo tỷ lệ chiều cao phù hợp với chiều rộng */
+}
+
+/* Định dạng cho thông tin của sản phẩm trong giỏ hàng */
+.cart-item-info {
+  flex-grow: 1; /* Làm cho phần thông tin chiếm không gian còn lại */
+  padding-left: 10px; /* Thêm khoảng cách 10px ở bên trái để tách biệt hình ảnh và thông tin */
+}
+
+/* Định dạng cho nút xóa sản phẩm trong giỏ hàng */
+.cart-item button {
+  padding: 5px 10px; /* Đặt khoảng cách padding trong nút */
+  background-color: #f44336; /* Màu nền của nút là đỏ */
+  color: white; /* Màu chữ trên nút là trắng */
+  border: none; /* Xóa bỏ viền của nút */
+  cursor: pointer; /* Thay đổi con trỏ thành dấu mũi tên khi hover */
+  border-radius: 5px; /* Bo góc của nút với bán kính 5px */
+}
+
+/* Định dạng khi hover trên nút xóa */
+.cart-item button:hover {
+  background-color: #d32f2f; /* Thay đổi màu nền của nút thành đỏ đậm khi hover */
+}
+
+/* Định dạng cho tổng giá trị của giỏ hàng */
+.cart-total {
+  margin-top: 20px; /* Thêm khoảng cách phía trên cho phần tổng giỏ hàng */
+  font-size: 20px; /* Đặt kích thước chữ cho tổng giỏ hàng là 20px */
+}

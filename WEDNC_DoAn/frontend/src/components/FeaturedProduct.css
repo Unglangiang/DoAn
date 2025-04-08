@@ -1,0 +1,36 @@
+/* Định dạng chung cho phần sản phẩm nổi bật */
+.featured-products {
+  margin: 20px; /* Thêm khoảng cách 20px xung quanh phần sản phẩm nổi bật */
+  text-align: center; /* Căn giữa nội dung trong phần sản phẩm nổi bật */
+}
+
+/* Định dạng cho tiêu đề của sản phẩm nổi bật */
+.featured-products h2 {
+  font-size: 24px; /* Đặt kích thước chữ cho tiêu đề là 24px */
+  margin-bottom: 20px; /* Khoảng cách 20px giữa tiêu đề và các phần tử phía dưới */
+}
+
+/* Định dạng cho các slide trong carousel (slick) */
+.slick-slide {
+  padding: 10px; /* Thêm khoảng cách 10px xung quanh mỗi slide */
+}
+
+/* Định dạng cho các chấm điều hướng dưới slide */
+.slick-dots {
+  bottom: 10px; /* Đặt vị trí của các chấm điều hướng cách dưới slide 10px */
+}
+
+/* Định dạng cho các nút điều hướng trước và sau slide */
+.slick-prev, .slick-next {
+  background-color: #000; /* Màu nền của các nút điều hướng là màu đen */
+  color: white; /* Màu chữ trên các nút điều hướng là màu trắng */
+  border-radius: 50%; /* Bo góc các nút thành hình tròn */
+  padding: 5px; /* Thêm khoảng cách 5px xung quanh nội dung nút */
+}
+
+/* Bo góc ảnh trong phần sản phẩm nổi bật */
+.featured-products img {
+  border-radius: 8px; /* Bo góc ảnh với bán kính 8px */
+  width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của container */
+  height: 300px; /* Đặt chiều cao của hình ảnh là 300px */
+}
